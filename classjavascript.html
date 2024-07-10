@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <script>
+    class Student {
+        constructor(name,stclass)
+        {
+            this.name=name
+            this.stclass=stclass
+
+        }
+       getDetails()
+       {
+        return(`the name of the student is ${this.name},${this.stclass}`)
+       }
+    }
+    let st1=new Student('anu','I')
+    console.log(st1.stclass);
+    console.log(st1.getDetails())
+
+
+  </script>
+</body>
+</html>

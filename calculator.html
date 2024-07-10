@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    A <input type="text" id="text1">
+    B <input type="text" id="text2">
+    <button onclick="Add()">Add</button>
+    <button onclick="Subtract()">Subtract</button>
+    <button onclick="Multiply()">Multiply</button>
+    <button onclick="Divide()">Divide</button>
+    Answer <input type="text" id="text3">
+    <script>
+        function Add()
+        {
+            var a,b,c 
+            a=Number(document.getElementById("text1").value)
+            b=Number(document.getElementById("text2").value)
+            c=a+b
+            document.getElementById("text3").value=c
+        }
+        function Subtract()
+        {
+            var a,b,c 
+            a=Number(document.getElementById("text1").value)
+            b=Number(document.getElementById("text2").value)
+            c=a-b
+            document.getElementById("text3").value=c
+        }
+        function Multiply()
+        {
+            var a,b,c 
+            a=Number(document.getElementById("text1").value)
+            b=Number(document.getElementById("text2").value)
+            c=a*b
+            document.getElementById("text3").value=c
+        }
+        function Divide()
+        {
+            var a,b,c 
+            a=Number(document.getElementById("text1").value)
+            b=Number(document.getElementById("text2").value)
+            c=a/b
+            document.getElementById("text3").value=c
+        }
+    </script>
+</body>
+</html>

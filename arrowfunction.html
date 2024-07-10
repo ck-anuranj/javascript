@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //Normal function
+        let values1=[1,2,3,4,5,6]
+        values1.forEach(function myFunction(val))
+        {
+            console.log("hello",val)
+        } 
+
+        //Anonymous function
+        let values1=[1,2,3,4,5,6]
+        values1.forEach (function(val)
+        {console.log("hello",val)} )
+
+        const fn3=function(val)
+        {
+            console.log("hello",val)
+        }
+        fn3(2)
+        
+        //arrow function
+        const fn=(val)=>
+        {
+            console.log("hello",val)
+        }
+        fn(1000)
+
+        //Arrow function(anonymous function new method)
+        const fn1=(val)=>
+        {
+            console.log("hello",val)
+        }
+        fn1()
+    </script>
+</body>
+</html>

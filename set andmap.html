@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // const fruits= new Set(['apple','mango'])
+        // console.log(fruits)
+        // fruits.add('banana')
+        // fruits.delete('apple')
+        // console.log(fruits.size)
+        // console.log(fruits.has('banana'))
+
+        // const fruits= new Set([100,160,200,400,300])
+        // for(const fruit of fruits.entries()){
+        //     console.log(fruit)
+        // }
+
+        // const fruits= new Set([100,160,200,300,100])
+        // for(const fruit of fruits.values()){
+        //   console.log(fruit)}
+
+        // const fruits= new Set([100,160,200,400,300])
+        // fruits.forEach((fruit) => {
+        //     console.log(fruit)
+        // })
+
+
+       // map
+    //    const numbers=[1,2,4,6,3,1,4,7,9,8,0,5,1]
+    //    const numbers1= new Set(numbers)
+    //    console.log(numbers1)
+
+    // const player= new Map([['key','value'],['lawal','kamal']])
+    // console.log(player)
+    let arr=[2,5,6,3,8,9]
+    
+    let newArr=arr.map(function(val,index){
+        return {key: index,value: val*val}
+    })
+    console.log(newArr)
+    </script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    Enter a Number : <input type="text" id="text">
+    <button onclick="fact()">Find FACTORIAL</button>
+    Answer : <input type="text" id="ans">
+    <script>
+        function fact()
+        {
+            var fact=1,i 
+            b=Number(document.getElementById("text").value)
+            for(i=1;i<=b;i++)
+            {
+                fact=fact*i;
+            }
+            document.getElementById("ans").value=fact;
+        }
+    </script>
+</body>
+</html>

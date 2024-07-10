@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body>
+    
+Enter length<input type="text" id="length">
+Enter breadth<input type="text" id="breadth">
+<button onclick="rectangle()">Find Area</button> <br>
+<p id="text1"></p> <br>
+Area is <input id="demo" type="text">
+<script>
+    function rectangle()
+    {
+        var a,l,b 
+        l=Number(document.getElementById("length").value)
+        b=Number(document.getElementById("breadth").value)
+        a=l*b
+        document.getElementById("text1").innerHTML=a
+        document.getElementById("demo").value=a
+
+    }
+</script>
+</body>
+</html>

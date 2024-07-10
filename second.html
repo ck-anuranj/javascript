@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+    <input type="text" id="text1">
+    <button onclick="display()">CLICK</button>
+    <input type="text" id="text2">
+    <p id="demo"></p>
+
+    <script>
+function display()
+{
+    var a=document.getElementById("text1").value
+    document.getElementById("text2").value=a
+    document.getElementById("demo").innerHTML=a
+}
+    </script>
+</body>
+</html>

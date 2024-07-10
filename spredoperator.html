@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var obj ={
+            a:1, b:2, c:3
+        }
+        var obj2={
+            ...obj
+        }
+        console.log(obj)
+        console.log(obj2)
+
+
+
+         var obj3={
+             d:5, e:6, f:8
+         }
+         var obj4={
+            j:1, k:2, ...obj3
+         }
+      
+         console.log(obj3)
+         console.log(obj4)
+
+         
+         var obj5={
+             d:5, e:6, f:8
+         }
+         var obj6={
+            j:1, k:2, 
+         }
+         var obj7={
+            ...obj5,...obj6
+         }
+      
+         console.log(obj5)
+         console.log(obj6)
+         console.log(obj7)
+
+         
+    </script>
+</body>
+</html>!
